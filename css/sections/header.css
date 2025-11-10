@@ -1,0 +1,65 @@
+.header__nav {
+    display: flex;
+    overflow: hidden;
+
+    height: fit-content;
+}
+
+.header__logo {
+    flex: 1;
+    display: flex;
+
+    position: relative;
+    padding: 20px;
+}
+
+.header__logo-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+
+    background-color: var(--primary-color);
+    z-index: 1;
+}
+
+.header__logo h4 {
+    padding-left: 30px;
+    color: #fff;
+    z-index: 2;
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.header__menu {
+
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    list-style-type: none;
+
+    gap: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    align-items: center;
+
+}
+
+.header__menu li{
+    align-content: center;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+
+    height: fit-content;
+    
+}
+
+.header__menu li img {
+
+    object-fit: contain;
+    width: 30px;
+
+}
+
+
